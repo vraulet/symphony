@@ -102,14 +102,7 @@ public class MarkdownsTestCase {
      */
     @Test
     public void falseResult() {
-        if (Markdowns.MARKED_AVAILABLE) {
-            final String kbd = "<kbd>DV</kbd>";
-
-            String html = Markdowns.toHTML(kbd);
-            html = Markdowns.clean(html, "");
-
-            Assert.assertTrue(false);
-        }
+        Assert.assertTrue(false);
     }
     
     /**
