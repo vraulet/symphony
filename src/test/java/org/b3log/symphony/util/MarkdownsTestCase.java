@@ -98,6 +98,21 @@ public class MarkdownsTestCase {
     }
 
     /**
+     * Invalid test.
+     */
+    @Test
+    public void tag() {
+        if (Markdowns.MARKED_AVAILABLE) {
+            final String kbd = "<kbd>DV</kbd>";
+
+            String html = Markdowns.toHTML(kbd);
+            html = Markdowns.clean(html, "");
+
+            Assert.assertTrue(false);
+        }
+    }
+    
+    /**
      * XSS test.
      */
     @Test
