@@ -101,7 +101,7 @@ public class MarkdownsTestCase {
      * Invalid test.
      */
     @Test
-    public void tag() {
+    public void falseResult() {
         if (Markdowns.MARKED_AVAILABLE) {
             final String kbd = "<kbd>DV</kbd>";
 
