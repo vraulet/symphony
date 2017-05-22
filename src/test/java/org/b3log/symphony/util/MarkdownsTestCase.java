@@ -102,7 +102,7 @@ public class MarkdownsTestCase {
      */
     @Test
     public void falseResult() {
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
     
     /**
